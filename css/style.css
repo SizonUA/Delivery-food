@@ -78,6 +78,12 @@ body {
   vertical-align: middle;
 }
 
+.button-hover:hover {
+  border: 1px solid #40a9ff;
+  border-radius: 2px;
+  background-color: transparent;
+}
+
 /* END Header */
 
 /* Begin Main */
@@ -424,6 +430,13 @@ body {
   font-size: 20px;
   line-height: 23px;
   color: #fafafa;
+}
+
+#order:hover {
+  color: #40a9ff;
+  border: 1px solid #40a9ff;
+  border-radius: 2px;
+  background: #ffffff;
 }
 
 /* @Media */
