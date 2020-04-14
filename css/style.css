@@ -9,6 +9,10 @@ body {
   color: #000000;
 }
 
+.body-hidden {
+  overflow: hidden;
+}
+
 .container {
   max-width: 1200px;
   margin: auto;
@@ -78,16 +82,19 @@ body {
 
 /* Begin Main */
 .main {
-  background: linear-gradient(180deg,
-      rgba(245, 245, 245, 0) 1.04%,
-      #f5f5f5 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(245, 245, 245, 0) 1.04%,
+    #f5f5f5 100%
+  );
 }
 
 /* Begin Section */
 .promo {
   color: #302c34;
   box-shadow: 0px 7px 12px rgba(158, 158, 163, 0.1);
-  background: #fff1b8 url(../images/promo-img.png) no-repeat top -100px right -250px / 924px;
+  background: #fff1b8 url(../images/promo-img.png) no-repeat top -100px right -250px /
+    924px;
   border-radius: 10px;
   padding: 68px 70px;
   margin-bottom: 56px;
@@ -329,13 +336,21 @@ body {
 }
 
 .close {
+  font-size: 20px;
   font-style: 36px;
   border: none;
   background-color: transparent;
 }
 
+.close:hover {
+  border: 2px solid #40a9ff;
+  border-radius: 2px;
+  background-color: transparent;
+}
+
 .modal-body {
   margin-bottom: 52px;
+  /* overflow: auto; */
 }
 
 .food-row {
